@@ -1,3 +1,33 @@
-*{box-sizing: border-box;}
+:root {
+    --primary: hsl(158, 36%, 37%);
+}
 
-body {font-family: Montserrat, serif;}
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Fraunces', serif;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.product {
+    background-color: white;
+}
+
+.product__image {
+    width: 100%;
+}
+
+.price__current {
+    color: var(--primary);
+}
+
+.product__addtocart-button {
+    color: white;
+    background-color: var(--primary)
+}
